@@ -16,7 +16,6 @@ model = DTR(random_state=1)
 
 model.fit(X, y)
 
-
 from sklearn.metrics import mean_absolute_error
 
 pred_home_prices = model.predict(X)
