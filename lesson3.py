@@ -31,3 +31,5 @@ for max_leaf_nodes in [5, 50, 500, 5000]:
     my_mae = get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y)
     
     print(f'max_leaf_nodes: {max_leaf_nodes}, MAE: {my_mae}')
+
+    
